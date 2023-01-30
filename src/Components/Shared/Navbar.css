@@ -5,3 +5,10 @@ body {
   box-sizing: border-box;
   padding: 0;
 }
+
+li{
+  color: #444;
+  font-size: 0.9rem;
+  font-weight: 600;
+
+}
