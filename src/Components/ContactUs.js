@@ -5,7 +5,7 @@ const ContactUs = () => {
     return (
         <div style={{ backgroundColor: "#f3f4f8" }} className='mb-5'>
             <div className='container mt-5 pt-5 mb-5 pb-5'>
-                <h2 className='text-center' style={{ color: '#444', fontSize: '30px', fontWeight: '600' }}>Contact Us</h2>
+                <h2 className='text-center text-primary' style={{ color: '#444', fontSize: '30px', fontWeight: '600' }}>Contact Us</h2>
                 <ul className='breadcrumb d-flex justify-content-center mt-3'>
                     <li className='breadcrumb-item'> <Link to="/"><i class="fa fa-home"></i> Home</Link></li>
                     <li className='breadcrumb-item active'><i class="fa fa-angle-double-right"></i> Contact Us</li>
@@ -21,7 +21,7 @@ const ContactUs = () => {
                 <div className='row'>
                     <div className='col-md-8'>
                         <div style={{padding:'20px'}} >
-                            <h2 className='mt-5'>Contact Form</h2> <br/>
+                            <h2 className='mt-5 text-primary'>Contact Form</h2> <br/>
                                 <div class="row g-5">
                                     <div class="col-sm-4 form-label mb-3"><label>Enter Name </label><span>:</span></div>
                                     <div class="col-sm-8 mb-3"><input type="text" placeholder="Enter Name" name="name" class="form-control input-sm"  /></div>

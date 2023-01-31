@@ -8,7 +8,7 @@ const Footer = () => {
 
                 <footer
                     class="text-center text-lg-start text-white"
-                    
+
                 >
 
                     <div class="container p-4 pb-0">
@@ -19,12 +19,10 @@ const Footer = () => {
 
                                 <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
                                     <h6 class="text-uppercase mb-4 font-weight-bold">
-                                        Company name
+                                        Cloud360 Services LTD
                                     </h6>
                                     <p>
-                                        Here you can use rows and columns to organize your footer
-                                        content. Lorem ipsum dolor sit amet, consectetur adipisicing
-                                        elit.
+                                        Cloud 360 Services is a provider of AWS cloud solutions, software engineering and managed services, supported by a strong leadership team with combined experience of 40+ years. Cloud 360 Services is an AWS Consulting Partner with its own development centre in Dhaka, Bangladesh
                                     </p>
                                 </div>
 
@@ -76,8 +74,8 @@ const Footer = () => {
 
                                 <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
                                     <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
-                                    <p><i class="fa fa-home mr-3"></i> New York, NY 10012, US</p>
-                                    <p><i class="fa fa-envelope mr-3"></i> info@gmail.com</p>
+                                    <p><i class="fa fa-home mr-3"></i> 1st Floor, House 41,Road 7, Block F Banani, Dhaka-1213</p>
+                                    <p><i class="fa fa-envelope mr-3"></i> cloud360services@gmail.com</p>
                                     <p><i class="fa fa-phone mr-3"></i> + 01 234 567 88</p>
                                     <p><i class="fa fa-print mr-3"></i> + 01 234 567 89</p>
                                 </div>

@@ -11,36 +11,36 @@ const Features = () => {
                     </div>
                     <div className='col-md-6 d-flex align-items-center justify-content-center'>
                         <div>
-                            <h1 className='fs-1 fw-bolder pb-5'>We are the Leading Cloud Service Provider</h1>
-                            <p style={{ fontFamily: "Roboto,sans-serif", color: '#212529' }}>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has.</p>
+                            <h1 className='fs-1 fw-bolder pb-5'>We Provide Best Cloud Service</h1>
+                            <p style={{ fontFamily: "Roboto,sans-serif", color: '#212529' }}>Empowering businesses to soar to new heights, Cloud 360 Services is the go-to partner for AWS solutions, software engineering and managed services. With a proven track record and 40+ years of combined experience in our leadership team, we are dedicated to delivering exceptional results to our clients. As an AWS Consulting Partner with our own development centre in Dhaka, Bangladesh, we bring a unique blend of technical expertise and local knowledge to support your digital transformation journey. Let's work together to achieve your business goals with Cloud 360 Services.</p>
                             <div className='row mt-5'>
                                 <div className='col-md-6'>
                                     <div className='d-flex align-items-center mt-2 mb-2'>
                                         <i class="fa fa-check"></i>
-                                        <span className='ms-3'>Boost SEO Sharing</span>
+                                        <span className='ms-3'>Data Hosting on Cloud</span>
                                     </div>
                                     <div className='d-flex align-items-center mt-2 mb-2'>
                                         <i class="fa fa-check"></i>
-                                        <span className='ms-3'> Marketing</span>
+                                        <span className='ms-3'> Data Security</span>
                                     </div>
                                     <div className='d-flex align-items-center mt-2 mb-2'>
                                         <i class="fa fa-check"></i>
-                                        <span className='ms-3'>Visual Review</span>
+                                        <span className='ms-3'>Cost Optimization</span>
                                     </div>
 
                                 </div>
                                 <div className='col-md-6'>
                                     <div className='d-flex align-items-center mt-2 mb-2'>
                                         <i class="fa fa-check"></i>
-                                        <span className='ms-3'> Social Sharing</span>
+                                        <span className='ms-3'> Website Development</span>
                                     </div>
                                     <div className='d-flex align-items-center mt-2 mb-2'>
                                         <i class="fa fa-check"></i>
-                                        <span className='ms-3'>Retention</span>
+                                        <span className='ms-3'>Digital Marketing</span>
                                     </div>
                                     <div className='d-flex align-items-center mt-2 mb-2'>
                                         <i class="fa fa-check"></i>
-                                        <span className='ms-3'>Review Generation</span>
+                                        <span className='ms-3'>AWS Managed Services</span>
                                     </div>
                                 </div>
 
