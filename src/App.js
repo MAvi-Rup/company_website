@@ -6,6 +6,8 @@ import { Route, Routes } from 'react-router-dom';
 import Footer from './Components/Shared/Footer';
 import Quote from './Components/Shared/Quote';
 import AboutPage from './Components/About/AboutPage';
+import ServicePage from './Components/OurService/ServicePage';
+import ContactUs from './Components/ContactUs';
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
       <Routes>
         <Route path='/' element={<HomePage />}></Route>
         <Route path='/about' element={<AboutPage />}></Route>
+        <Route path='/service' element={<ServicePage />}></Route>
+        <Route path='/contact-us' element={<ContactUs />}></Route>
       </Routes>
       <Quote></Quote>
       <Footer />

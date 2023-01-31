@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import './Navbar.css'
 
 const Navbar = () => {
@@ -16,26 +17,26 @@ const Navbar = () => {
         <div className='pb-5' style={{marginBottom:'70px'}}>
             <nav className={scrolled ? "navbar navbar-expand-lg fixed-top bg-white mb-5 shadow" : "navbar navbar-expand-lg fixed-top bg-white mb-5"}>
                 <div class="container">
-                    <a class="navbar-brand" href="#">
+                    <Link class="navbar-brand" to="/">
                         <img src="./images/logo.png" className='pt-2 pb-2' alt="Bootstrap" width="100" height="100" />
-                    </a>
+                    </Link>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav m-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link pt-2 pb-2" aria-current="page" href="#">Home</a>
+                                <Link class="nav-link pt-2 pb-2" aria-current="page" to="/">Home</Link>
                             </li>
                             
                             <li class="nav-item">
-                                <a class="nav-link ms-3 pt-2 pb-2" href="#">About Us</a>
+                                <Link class="nav-link ms-3 pt-2 pb-2" to="/about">About Us</Link>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link ms-3 pt-2 pb-2" href="#">Service</a>
+                                <Link class="nav-link ms-3 pt-2 pb-2" to="/service">Service</Link>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link ms-3 pt-2 pb-2" href="#">Contact Us</a>
+                                <Link class="nav-link ms-3 pt-2 pb-2" to="/contact-us">Contact Us</Link>
                             </li>
                             {/* <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
