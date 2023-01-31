@@ -1,10 +1,20 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './Navbar.css'
 
 const Navbar = () => {
+    const [scrolled, setScrolled] = useState(false);
+    useEffect(() => {
+        window.onscroll = function() {
+          if (window.scrollY > 50) {
+            setScrolled(true);
+          } else {
+            setScrolled(false);
+          }
+        };
+      }, []);
     return (
-        <div className='mb-5 pb-5'>
-            <nav class="navbar navbar-expand-lg fixed-top bg-white mb-5">
+        <div className='pb-5' style={{marginBottom:'70px'}}>
+            <nav className={scrolled ? "navbar navbar-expand-lg fixed-top bg-white mb-5 shadow" : "navbar navbar-expand-lg fixed-top bg-white mb-5"}>
                 <div class="container">
                     <a class="navbar-brand" href="#">
                         <img src="./images/logo.png" className='pt-2 pb-2' alt="Bootstrap" width="100" height="100" />
