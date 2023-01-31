@@ -15,10 +15,11 @@ const Navbar = () => {
       }, []);
     return (
         <div className='pb-5' style={{marginBottom:'70px'}}>
-            <nav className={scrolled ? "navbar navbar-expand-lg fixed-top bg-white mb-5 shadow" : "navbar navbar-expand-lg fixed-top bg-white mb-5"}>
+            <nav className={scrolled ? "navbar navbar-expand-lg fixed-top bg-primary-subtle text-white mb-5 shadow" : "navbar navbar-expand-lg fixed-top bg-white mb-5"}>
                 <div class="container">
-                    <Link class="navbar-brand" to="/">
-                        <img src="./images/logo.png" className='pt-2 pb-2' alt="Bootstrap" width="100" height="100" />
+                    <Link class="navbar-brand d-flex align-item-center" to="/">
+                        <img src="logo.png" className='pt-2 pb-2' alt="Bootstrap" width="300" />
+                        {/* <h1 style={{color:'#0c58a5', fontFamily:'Montserrat, sans-serif',fontSize:'24px',fontWeight:'800' ,margin:'0',padding:'0'}}>CLOUD <span className='text-warning' style={{color:'#ffb700'}}>360</span><br/><span style={{fontWeight:'600',fontSize:'22px'}}>Services Ltd.</span></h1> */}
                     </Link>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
